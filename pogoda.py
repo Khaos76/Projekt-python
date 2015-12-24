@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
 
 import json
 import requests
@@ -15,9 +14,6 @@ kolekcja = (parsed_json['main'])
 print (kolekcja)
 print ("temperatura = %s\u2103" % kolekcja['temp'])  # stopień \xb0, stopień celcjusza \u2103
 
-
-
-# In[ ]:
 
 
 
